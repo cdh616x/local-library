@@ -7,3 +7,5 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+//mongodb connection string: mongodb+srv://cdhprof:Lyr1c@@@@cluster0.7dp8d.mongodb.net/local_library?retryWrites=true&w=majority
