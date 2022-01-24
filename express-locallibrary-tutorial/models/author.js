@@ -35,7 +35,7 @@ AuthorSchema.virtual('lifespan').get(function() {
   }
   lifetime_string += ' - ';
   if (this.date_of_death) {
-    lifetime_string += this.date_of_death.getYear()
+    lifetime_string += this.date_of_death.getYear();
   }
   return lifetime_string;
 });
